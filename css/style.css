@@ -1,0 +1,183 @@
+* {
+  font-family: var(--headers-family);
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.top-section {
+  background-image: url("../assets/images/header-background\ 2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+section {
+  padding-top: 50px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navigation {
+  display: flex;
+  list-style-type: none;
+  gap: 40px;
+}
+
+.navigation__item a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.navigation__item a:hover {
+  color: var(--primary-color);
+}
+
+.search input {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.home_center h1 {
+  text-align: center;
+  font: 90px/1.1em "opensans-bold", sans-serif;
+  color: #fff;
+  letter-spacing: -2px;
+  margin: 0 auto 18px auto;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+.home_center {
+  margin-top: 100px;
+}
+
+.home_center p {
+  font: 25px/1.9em "librebaskerville-regular", serif;
+  color: #a8a8a8;
+  margin: 0 auto;
+  width: 70%;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.home_center p span {
+  color: #fff;
+}
+
+/* part 2 start  */
+.persons {
+  background-color: #2b2b2b;
+}
+
+.person {
+  display: flex;
+  width: 96%;
+  max-width: 1020px;
+  margin: 0 auto;
+  height: 680px;
+}
+
+.person__left img {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+}
+
+.person__right {
+  margin: 0 100px;
+}
+
+.person__right-first h2 {
+  font-size: 30px;
+}
+
+.person__right-first p {
+  line-height: 30px;
+  color: #7a7a7a;
+}
+
+.person__right-two h2 {
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+.person__right-two p {
+  line-height: 30px;
+  color: #7a7a7a;
+  width: 220px;
+  height: 150px;
+}
+
+/* part 3 */
+.education {
+  display: flex;
+  width: 96%;
+  max-width: 1020px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.education__left img {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+}
+
+.education__right {
+  margin: 0 100px;
+}
+
+.education__right-first h2 {
+  font-size: 30px;
+  color: black;
+}
+
+.info {
+  font: 21px "librebaskerville-italic", serif;
+  color: #6e7881;
+  margin-bottom: 18px;
+  margin-top: 9px;
+}
+
+.education__right-first p {
+  line-height: 30px;
+  color: #7a7a7a;
+}
+
+.education__right-two h2 {
+  font-size: 30px;
+  margin-top: 50px;
+  color: black;
+}
+
+.education__right-two p {
+  line-height: 30px;
+  color: #7a7a7a;
+}
+
+footer {
+  background-color: #eee2e2;
+  font-size: 20px;
+  color: #2b2b2b;
+  height: 100px;
+  margin-top: 30px;
+}
